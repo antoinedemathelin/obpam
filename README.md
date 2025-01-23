@@ -21,7 +21,7 @@ python script.py --config expe_large_scale
 The 10 following datasets are used:
  - ``abalone`` Shape: (4176, 8) [[description](https://archive.ics.uci.edu/dataset/1/abalone)] [[download](https://archive.ics.uci.edu/static/public/1/abalone.zip)] 
  - ``bankruptcy`` Shape: (6819, 96) [[description](https://archive.ics.uci.edu/dataset/572/taiwanese+bankruptcy+prediction)] [[download](https://archive.ics.uci.edu/static/public/572/taiwanese+bankruptcy+prediction.zip)]
- - ``mapping`` Shape: (10545 28) [[description](https://archive.ics.uci.edu/dataset/400/crowdsourced+mapping)]
+ - ``mapping`` Shape: (10545 28) [[description](https://archive.ics.uci.edu/dataset/400/crowdsourced+mapping)] [[download](https://archive.ics.uci.edu/static/public/400/crowdsourced+mapping.zip)]
  - ``drybean`` Shape: (13611, 16) [[description](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)] [[download](https://archive.ics.uci.edu/static/public/602/dry+bean+dataset.zip)]
  - ``letter`` Shape: (19999, 16) [[description](https://archive.ics.uci.edu/dataset/59/letter+recognition)] [[download](https://archive.ics.uci.edu/static/public/59/letter+recognition.zip)]
  - ``cifar`` Shape (50000, 3072) [[description](https://www.cs.toronto.edu/~kriz/cifar.html)]
