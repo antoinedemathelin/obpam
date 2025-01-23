@@ -31,4 +31,4 @@ The 10 following datasets are used:
  - ``monitor_gas`` Shape: (416153, 9) [[description](https://archive.ics.uci.edu/dataset/799/single+elder+home+monitoring+gas+and+position)] [[download](https://archive.ics.uci.edu/static/public/799/single+elder+home+monitoring+gas+and+position.zip)]
  - ``covertype`` Shape: (581011, 55) [[description](https://archive.ics.uci.edu/dataset/31/covertype)] [[download](https://archive.ics.uci.edu/static/public/31/covertype.zip)]
 
-To reproduce the experiements, please download the datasets and unzip them in a ``./data/`` folder.
+To reproduce the experiments, please download the datasets and unzip them in a ``./data/`` folder.
