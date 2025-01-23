@@ -1,0 +1,21 @@
+save_dir: results
+datasets: ["abalone", "bankruptcy", "drybean", "mapping", "letter"]
+methods: ["onebatch", "random", "kmeans++", "fastclara", "kmc2", "kmeans++ls", "pam", "banditpam", "onebatch-bias", "onebatch-nniw", "onebatch-lwcs"]
+params:
+    onebatch:
+        batch_size: ["auto"]
+    fastclara:
+        n_sampling_iter: [50]
+    kmeans++ls:
+        Z: [5, 10]
+    kmc2:
+        chain_length: [20, 100, 200]
+    pam:
+        method: ["alternate", "fasterpam"]
+    banditpam:
+        max_iter: [0, 2, 5]
+K: [10, 50, 100]
+metric: "l1"
+N: [null]
+seeds: [0, 1, 2, 3, 4]
+timeout: 3600
