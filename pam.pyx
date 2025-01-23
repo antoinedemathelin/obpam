@@ -93,7 +93,6 @@ def swap_eager(float[:, ::1] Dist, int[::1] medoids_init, int K, int n_swap, int
             
                     swap_gain += swap_gains_K_copy[index]
     
-                    # XXX set tolerance properly !
                     if swap_gain > tol:
                         medoids[index] = i
                         last_change = i
