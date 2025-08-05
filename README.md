@@ -1,5 +1,11 @@
 # OneBatchPAM
 
+Source code for [OneBatchPAM: A Fast and Frugal K-Medoids Algorithm](https://arxiv.org/pdf/2501.19285) (AAAI 2025)
+
+=> The algorithm is now available as a Python package [here](https://github.com/antoinedemathelin/onebatch/tree/main)
+
+--------
+
 This repository provides the results of the experiements conducted on MNIST, CIFAR10 and 8 UCI datasets.
 
 Please clone the repository and install the dependencies with:
